@@ -18,14 +18,13 @@ const Input = ({ name, children, placeholder, ...rest }) => (
 export default Input;
 
 const Wrapper = styled.div`
-  background-color: #eee;
+  background-color: rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   padding: 1rem 1rem 1rem;
   margin-bottom: 1rem;
 
   &:focus-within {
-    background-color: #1a213a;
-    color: #fff;
+    background-color: rgba(0, 0, 0, 0.05);
   }
 `;
 
